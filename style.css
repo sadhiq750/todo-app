@@ -269,7 +269,8 @@ body{
     background: var(--secondary-color);
     border-radius: 5px;
     font-weight: 600;
-    padding: 1em;
+    padding-block: 1em;
+    padding-inline: 2em;    
     outline: none;
     cursor: pointer;
 }
