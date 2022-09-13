@@ -269,8 +269,7 @@ body{
     background: var(--secondary-color);
     border-radius: 5px;
     font-weight: 600;
-    padding-block: 1em;
-    padding-inline: 2em;
+    padding: 1em;
     outline: none;
     cursor: pointer;
 }
