@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App With Local Storage</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Container-->
+    <div class="container">
+        <div id="addTask">
+            <div id="newTask">
+                <input type="text" id="userInput" placeholder="Task to be done..">
+                <input type="hidden" id="saveIndex">
+                <button id="push">Add Task</button>
+                <button style="display: none;" id="save">Save Task</button>
+            </div>
+        </div>
+        <div id="tasksList">
+            <div id="searchTask">
+                <button id="deleteAll">Delete All</button>
+                <input type="text" id="searchBar" placeholder="Search tasks...">
+            </div>
+                <div id="tasks">
+                </div>
+        </div>
+    </div>
+    <!--CTA Button-->
+    <form action="https://jsscientist.com/todo-app-using-javascript/" method="get" target="_blank">
+        <button type="submit" id="cta">Download Source Code</button>
+    </form>
+    <!--Message-->
+    <div id="snackBar">Please Enter a Task</div>
+    <!--Script-->
+    <script src="script.js"></script>
+    <!--Script for icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
